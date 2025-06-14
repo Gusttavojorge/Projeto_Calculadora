@@ -1,8 +1,7 @@
-package com.exemplo.calculadora;
+package br.gustavojorge.calculadora.entities;
 
 // Classe Calculadora
 // Contém métodos básicos para operações aritméticas.
- 
 public class Calculadora {
 
     public double somar(double a, double b) {
