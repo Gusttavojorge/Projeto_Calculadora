@@ -59,7 +59,7 @@ public class Program {
             System.out.println("Deseja realizar outra operação: (s/n)");
             resp = sc.next().charAt(0);
 
-        } while (resp != 'n' || resp != 'N');
+        } while (resp != 'n' && resp != 'N');
 
         sc.close();
     }
