@@ -19,27 +19,27 @@ Este projeto consiste em uma calculadora simples desenvolvida em Java, com foco 
 
 src
 ├── main
-│ └── java
-│ └── br/gustavojorge/calculadora
-│ ├── entities
-│ │ └── Calculadora.java
-│ └── program
-│ └── Program.java
+│   └── java
+│       └── br/gustavojorge/calculadora
+│           ├── entities
+│           │   └── Calculadora.java
+│           └── program
+│               └── Program.java
 ├── test
-│ └── java
-│ └── br/gustavojorge/calculadora
-│ └── CalculadoraTest.java
+│   └── java
+│       └── br/gustavojorge/calculadora
+│           └── CalculadoraTest.java
 pom.xml
 
 ---
 
 ## 🚀 Como Executar (no terminal)
 
-### 1. Executar a calculadora
+1. Executar a calculadora
 
 mvn compile exec:java
 
-### 2. Rodar os testes
+2. Rodar os testes
 
 mvn test
 
@@ -55,7 +55,7 @@ mvn test
 
 ## 👨‍💻 Autor
 
-- Gustavo Jorge Milhomem de Oliveira
+- Gustavo Jorge 
 - Projeto acadêmico para o curso de Análise e Desenvolvimento de Sistemas – PUC-GO
 
 ---
