@@ -15,24 +15,6 @@ Este projeto consiste em uma calculadora simples desenvolvida em Java, com foco 
 
 ---
 
-## 📂 Estrutura do Projeto
-
-src
-├── main
-│   └── java
-│       └── br/gustavojorge/calculadora
-│           ├── entities
-│           │   └── Calculadora.java
-│           └── program
-│               └── Program.java
-├── test
-│   └── java
-│       └── br/gustavojorge/calculadora
-│           └── CalculadoraTest.java
-pom.xml
-
----
-
 ## 🚀 Como Executar (no terminal)
 
 1. Executar a calculadora
