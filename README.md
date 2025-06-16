@@ -17,49 +17,31 @@ Este projeto consiste em uma calculadora simples desenvolvida em Java, com foco 
 
 ## 📂 Estrutura do Projeto
 
-```
 src
 ├── main
-│   └── java
-│       └── br/gustavojorge/calculadora
-│           ├── entities
-│           │   └── Calculadora.java
-│           └── program
-│               └── Program.java
+│ └── java
+│ └── br/gustavojorge/calculadora
+│ ├── entities
+│ │ └── Calculadora.java
+│ └── program
+│ └── Program.java
 ├── test
-│   └── java
-│       └── br/gustavojorge/calculadora
-│           └── CalculadoraTest.java
+│ └── java
+│ └── br/gustavojorge/calculadora
+│ └── CalculadoraTest.java
 pom.xml
-```
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar (no terminal)
 
-### Pré-requisitos
-- Java 21
-- Maven instalado
-- Git (opcional)
+### 1. Executar a calculadora
 
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/seu-usuario/Projeto_Calculadora.git
-cd Projeto_Calculadora
-```
-
-### 2. Executar a calculadora
-
-```bash
 mvn compile exec:java
-```
 
-### 3. Rodar os testes
+### 2. Rodar os testes
 
-```bash
 mvn test
-```
 
 ---
 
@@ -71,15 +53,9 @@ mvn test
 
 ---
 
-## 📥 Repositório Clonado
-
-Durante o projeto, também foi clonado um repositório externo com estrutura similar de uma calculadora para fins de análise e comparação de práticas de codificação.
-
----
-
 ## 👨‍💻 Autor
 
-- Gustavo Jorge Milhomem de Oliveira  
+- Gustavo Jorge Milhomem de Oliveira
 - Projeto acadêmico para o curso de Análise e Desenvolvimento de Sistemas – PUC-GO
 
 ---
