@@ -34,10 +34,10 @@ public class Calculadora {
 
     @Override
     public String toString() {
-        if (total % 2 != 0) {
-            return String.format("Resultado: %.2f", total);
-        } else {
+        if (total % 1 == 0) {
             return String.format("Resultado: %.1f", total);
+        } else {
+            return String.format("Resultado: %.2f", total);
         }
     }
 }
